@@ -1,0 +1,24 @@
+name: Add Comment on Pull Request 10000
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  add-comment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Add Comment on Pull Request 10000
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Extract the pull request number from the event data
+          PR_NUMBER=$(jq -r '.number' $GITHUB_EVENT_PATH)
+          # Check if the PR number is 10000
+          if [[ "$PR_NUMBER" -eq 10000 ]]; then
+            # Add a comment to the pull request
+            curl -H "Authorization: token $GITHUB_TOKEN" -X POST \
+              "https://api.github.com/repos/$GITHUB_REPOSITORY/issues/$PR_NUMBER/comments" \
+              -d '{"body": "Congrats, you added the Pull Request 10000 in this repository! :tada:"}'
+          fi
