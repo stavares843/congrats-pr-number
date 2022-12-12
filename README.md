@@ -12,4 +12,6 @@
 
 <img width="674" alt="Captura de ecrã 2022-12-12, às 19 17 03" src="https://user-images.githubusercontent.com/29093946/207134456-850926cc-1300-4733-bc0e-304a288acf65.png">
 
+# License
 
+[MIT](https://github.com/stavares843/congrats-pr-number/blob/main/LICENSE)
