@@ -6,7 +6,7 @@
 # Usage
 
 1. Create a GitHub Action workflow
-2. Copy and paste the action from here, you can also modify the comment and the PR number you want the action to run on
+2. Copy and paste the action from [here](https://github.com/stavares843/congrats-pr-number/tree/main/.github/workflows), you can also modify the comment and the PR number you want the action to run on
 3. When submitting a Pull Request with the number specified, in the action, the bot will add a comment
 
 
