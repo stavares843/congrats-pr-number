@@ -3,6 +3,10 @@
 
 ![raycast-untitled (1)](https://user-images.githubusercontent.com/29093946/207133911-399e5b3a-70e8-450a-87e3-115f228a568b.svg)
 
+<p align="center">
+   <a href="/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat" /></a>
+</p>
+
 # Usage
 
 1. Create a GitHub Action workflow
@@ -11,7 +15,3 @@
 
 
 <img width="674" alt="Captura de ecrã 2022-12-12, às 19 17 03" src="https://user-images.githubusercontent.com/29093946/207134456-850926cc-1300-4733-bc0e-304a288acf65.png">
-
-# License
-
-[MIT](https://github.com/stavares843/congrats-pr-number/blob/main/LICENSE)
