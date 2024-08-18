@@ -8,7 +8,7 @@ jobs:
   add-comment:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Add Comment on Pull Request 10000
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
